@@ -24,7 +24,7 @@ class _DrawerWidgetState extends State<DrawerWidget> {
               decoration: BoxDecoration(color: Colors.green),
               child: Row(
                 children: [
-                  AvatarView(
+                  const AvatarView(
                     radius: 45,
                     borderWidth: 3,
                     borderColor: Colors.white,
@@ -32,14 +32,14 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                     backgroundColor: Colors.redAccent,
                     imagePath: "assets/images/profile_image.jpg",
                   ),
-                  SizedBox(
+                  const SizedBox(
                     width: 15,
                   ),
                   Padding(
                     padding: const EdgeInsets.only(top: 50),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
+                      children: const [
                         Text("Palash Chandra Barman",style: TextStyle(fontSize: 20,color:Colors.white),),
                         Text("Balance : ৳ 1,020",style: TextStyle(fontSize: 20,color: Colors.white),),
                       ],
@@ -52,24 +52,24 @@ class _DrawerWidgetState extends State<DrawerWidget> {
             Column(
               children: [
                 ListTile(
-                  leading: Icon(
+                  leading: const Icon(
                     Icons.home_outlined,
                     size: 25,
                     color: Colors.white,
                   ),
-                  title: Text(
+                  title: const Text(
                     "Home",
                     style: TextStyle(fontSize: 20, color: Colors.white),
                   ),
                   onTap: () {},
                 ),
                 ListTile(
-                  leading: Icon(
+                  leading: const Icon(
                     Icons.account_box_sharp,
                     color: Colors.white,
                     size: 25,
                   ),
-                  title: Text(
+                  title: const Text(
                     "Accounts",
                     style: TextStyle(
                         fontSize: 20,
@@ -78,12 +78,12 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                   onTap: () {},
                 ),
                 ListTile(
-                  leading: Icon(
+                  leading: const Icon(
                     Icons.insert_chart_outlined_rounded,
                     size: 25,
                     color: Colors.white,
                   ),
-                  title: Text(
+                  title: const Text(
                     "Charts",
                     style: TextStyle(
 
@@ -93,12 +93,12 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                   onTap: () {},
                 ),
                 ListTile(
-                  leading: Icon(
+                  leading: const Icon(
                     Icons.category,
                     color: Colors.white,
                     size: 25,
                   ),
-                  title: Text(
+                  title: const Text(
                     "Categories",
                     style: TextStyle(
                       fontSize: 20,
@@ -108,12 +108,12 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                   onTap: () {},
                 ),
                 ListTile(
-                  leading: Icon(
+                  leading: const Icon(
                     Icons.monetization_on_outlined,
                     color: Colors.white,
                     size: 25,
                   ),
-                  title: Text(
+                  title: const Text(
                     "Regular Payments",
                     style: TextStyle(
 
@@ -123,9 +123,9 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                   onTap: () {},
                 ),
                 ListTile(
-                  leading: Icon(Icons.notifications_active_outlined,
+                  leading: const Icon(Icons.notifications_active_outlined,
                       size: 25, color: Colors.white),
-                  title: Text(
+                  title: const Text(
                     "Reminders",
                     style: TextStyle(
                         fontSize: 20,
@@ -134,12 +134,12 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                   onTap: () {},
                 ),
                 ListTile(
-                  leading: Icon(
+                  leading: const Icon(
                     Icons.stay_current_landscape_outlined,
                     size: 25,
                     color: Colors.white,
                   ),
-                  title: Text(
+                  title: const Text(
                     "Currency",
                     style: TextStyle(
 
@@ -149,12 +149,12 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                   onTap: () {},
                 ),
                 ListTile(
-                  leading: Icon(
+                  leading: const Icon(
                     Icons.settings_applications_outlined,
                     size: 25,
                     color: Colors.white,
                   ),
-                  title: Text(
+                  title: const Text(
                     "Settings",
                     style: TextStyle(
                       fontSize: 20,
@@ -165,7 +165,7 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                 ),
                 ListTile(
                   leading: Icon(MdiIcons.advertisements,size: 25,color: Colors.white,),
-                  title: Text(
+                  title: const Text(
                     "Turn off ads",
                     style: TextStyle(
                       fontSize: 20,
@@ -175,12 +175,12 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                   onTap: () {},
                 ),
                 ListTile(
-                  leading: Icon(
+                  leading: const Icon(
                     Icons.share_outlined,
                     size: 25,
                     color: Colors.white,
                   ),
-                  title: Text(
+                  title: const Text(
                     "Share With friends",
                     style: TextStyle(
 
@@ -190,12 +190,12 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                   onTap: () {},
                 ),
                 ListTile(
-                  leading: Icon(
+                  leading: const Icon(
                     Icons.star_border_outlined,
                     size: 25,
                     color: Colors.white,
                   ),
-                  title: Text(
+                  title: const Text(
                     "Rate the app",
                     style: TextStyle(
                       fontSize: 20,
@@ -205,12 +205,12 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                   onTap: () {},
                 ),
                 ListTile(
-                  leading: Icon(
+                  leading: const Icon(
                     Icons.contact_mail_outlined,
                     size: 25,
                     color: Colors.white,
                   ),
-                  title: Text(
+                  title: const Text(
                     "Contact the support team",
                     style: TextStyle(
                       fontSize: 20,
